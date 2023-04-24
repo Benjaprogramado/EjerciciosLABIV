@@ -1,6 +1,14 @@
+<div class="container">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a routerLink="/bienvenido" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Home</a></li>
+        <li class="nav-item"><a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Login</a></li>
+        <li class="nav-item"><a routerLink="/error" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Error</a></li>
+        <!-- <li class="nav-item"><a href="#" class="nav-link">Error</a></li> -->
+        <!-- <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
+      </ul>
+    </header>
+  </div>
 
-<div>
-    <button class="btn btn-danger" routerLink="bienvenido">Bienvenido</button>
-</div>
 <!-- Es donde se msostrara el contenido de las rutas, osea, lo que cambia -->
 <router-outlet></router-outlet>
